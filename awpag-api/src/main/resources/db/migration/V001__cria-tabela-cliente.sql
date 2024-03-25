@@ -5,7 +5,6 @@ create table cliente (
     telefone varchar(20) not null,
 
     primary key (id)
-
 );
 
 alter table cliente add constraint uk_cliente unique (email);
